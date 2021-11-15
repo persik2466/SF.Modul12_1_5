@@ -30,46 +30,10 @@ namespace SF.Modul12_1_5
             Console.WriteLine("Все пользователи поприветствованы!");
 
             Console.ReadKey();
-
         }
-        /*static void Greetings()
-        {
-            Console.WriteLine("Как Вас зовут?");
-            var name = Console.ReadLine();
-            var greetings = "Привет, " + name;
-            Console.WriteLine(greetings);
-        }
-
-        static void ReadArray()
-        {
-            Console.WriteLine("Сколько элементов будет в массиве?");
-            var count = Int32.Parse(Console.ReadLine());
-
-            var array = new int[count];
-
-            for (int i = 0; i < count; i++)
-            {
-                array[i] = Int32.Parse(Console.ReadLine());
-            }
-
-            Console.WriteLine("Все элементы записаны");
-        }
-        
-        static void CheckAge()
-        {
-            Console.WriteLine("Введите свой возраст");
-            var age = Int32.Parse(Console.ReadLine());
-
-            if (age > 13)
-            {
-                Console.WriteLine("Вы успешно зарегистрированы");
-            }
-            else
-            {
-                Console.WriteLine("Пользователи младше 14 лет не могут быть зарегистрированы");
-            }
-        }
-        */
+        /// <summary>
+        /// Реклама
+        /// </summary>
         static void ShowAds()
         {
             Console.WriteLine("Посетите наш новый сайт с бесплатными играми free.games.for.a.fool.com");
